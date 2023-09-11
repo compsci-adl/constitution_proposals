@@ -1,0 +1,425 @@
+\documentclass[11pt]{article}
+\usepackage{titlesec}
+\usepackage{svg}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage[shortlabels]{enumitem}
+\usepackage[hidelinks]{hyperref}
+\geometry{a4paper, margin=1.5in}
+
+
+
+
+\newcommand{\signature}[2]{%
+    \hsize=6cm%
+    \parindent=1em%
+    \vspace*{2em}%
+    \begingroup%
+    \par\noindent\makebox[\hsize]{\hrulefill}%
+    \par\noindent\makebox[\hsize][l]{\indent #1}%
+    \\ \noindent\makebox[\hsize][l]{\indent #2}%
+    \endgroup%
+}
+
+\begin{document}
+
+\input{titlepage}
+
+\tableofcontents
+
+\newpage
+\section{Principles and Objectives of the Club} \label{principlesObjectivesClub}
+\subsection{Primary Objectives} \label{primaryObjectivesClub}
+The primary objective of the Club is to provide collaboration, networking, intellectual stimulation and social opportunities, as well as any other pursuit reasonably suited for students studying computer science at the University of Adelaide and other interested people.
+
+\subsection{Not for Profit Clause} \label{notForProfitClause}
+The assets and income of the Club shall be applied solely in furtherance of its above-mentioned objects and no portion shall be distributed directly or indirectly to the members of the Club except as bona fide compensation for services rendered or expenses incurred on behalf of the Club. 
+
+\subsection{Status of Constitution} \label{statusConstitution}
+All rules, regulations, requirements and steps outlined by the YouX and the Clubs Constitution take precedence over anything outlined in this constitution.
+
+\section{Name} \label{nameClub}
+The legal and formal name of the club is \textbf{“The University of Adelaide Computer Science Club”}.
+\subsection{Trading Names}
+For the purposes of publicity, publication, or other purposes as approved by the President or his delegate, the name of the Club may be written as “CS Club”. It may also be written as a syntactically valid source code statement or equivalent for any self-hosting computer programming language which calls a zero-parameter callable unit named "club" contained or referenced within a first-class object named "cs", discarding any returned value. These names need not be capitalised as described.
+
+\section{Definitions} \label{definitions}
+Unless a contrary intention is evident, the following definitions apply to this Constitution and all other club documents:
+\begin{description}
+    \item \textbf{Club} means the University of Adelaide Computer Science Club;
+    \item \textbf{University} means the University of Adelaide;
+    \item \textbf{Committee} means the Committee of the Club;
+    \item \textbf{Executive} means the Executive Committee of the Club;
+    \item \textbf{GM} means a General Meeting of the Club;
+    \item \textbf{AGM} means an Annual General Meeting of the Club;
+    \item \textbf{SGM} means a Special General Meeting of the Club;
+    \item \textbf{Academic Day} means a weekday defined by the University of Adelaide to be within a semester;
+    \item \textbf{Office} means an elected position in the Club provided for in Section \ref{committeeMakeup}.
+    \item \textbf{Officer} means a member who has been elected to an Office.
+    \item \textbf{Executive} means the Executive of the Club.
+    
+\end{description}
+
+\section{Membership} \label{membershipClub}
+
+\subsection{General Membership} \label{generalMembership}
+General membership in the Club is open to any current undergraduate or postgraduate student at the University of Adelaide who:
+\begin{enumerate}
+    \item Pays the membership fee as determined under Section \ref{membershipFee}; and
+    \item Submits to the committee the following information:
+    \begin{enumerate}[(a)]
+        \item Full name; and
+        \item student ID number; and
+        \item preferred Email Address.
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{Associate Membership} \label{associateMembership}
+Associate membership in the Club is open to any person not a student of the University of Adelaide only if the applicant may satisfy any possible reasonable objections the committee may raise. Associate members must also satisfy the criteria under Section \ref{generalMembership}.
+
+\subsection{Honorary Membership} \label{honoraryMembership}
+Honorary membership in the Club is open to any person upon whom the Club has conferred. Such a membership may only be conferred by a resolution at a GM.
+
+\subsection{Refusal and Revocation of Membership} \label{refusalRevocationMembership}
+The committee has the right to refuse or revoke the membership of any potential or current member if the applicant or member has proven detrimental to the interests of the club, violates the Code of Conduct of the University of Adelaide, or is otherwise causing serious issues within the club for either its membership base and/or committee.
+
+\subsubsection{Procedure for Refusal or Revocation of Membership} \label{procedureRefusalRevocationMembership}
+Membership may only be refused or revoked after a passing motion of a two thirds majority during a committee meeting. The person to whom membership is being refused or revoked will be given an opportunity to attend the meeting and present their case to the committee, whether in person, electronically, or in-writing. The committee will make reasonable efforts to hold the meeting during a time in which the person may attend to plead their case.
+In the event that membership is being refused or revoked due to issues arising out of interpersonal conflict, the other parties seeking the refusal or revocation will also be permitted to attend the committee meeting and present their arguments.
+
+\section{Membership Fee}\label{membershipFee}
+The club’s membership fee is determined at each AGM for the following year. The membership fee provides membership until the subsequent AGM. Honorary members of the club are exempt from membership fees as set out in Section \ref{honoraryMembership}.
+
+\section{Termination of Membership} \label{terminationMembership}
+\subsection{Ordinary Membership Termination}\label{ordinaryMembershipTerimnation}
+The committee may suspend any membership for whatever reason if:
+\begin{enumerate}[(a)]
+    \item the member is given a written \textbf{notice of suspension}; and
+    \item a Committee Meeting is held to vote on the revocation within \textbf{3 weeks} of suspension; and
+    \item the member is notified in writing within \textbf{48 hours} of the conclusion of the committee meeting.
+\end{enumerate}
+
+\subsection{Suspended Members}\label{suspendedMembers}
+During the process as described in Section \ref{ordinaryMembershipTerimnation}:
+\begin{enumerate}[(a)]
+    \item Suspended members may not attend club events or otherwise take part in club activities until a resolution is reached; and
+    \item If the committee meetings results in the revocation of a member’s membership, their membership is terminated.
+\end{enumerate}
+
+\subsection{Member's own choice}
+Members of the club may terminate their own membership by writing to the committee.
+
+\subsection{Fee refund}
+Members who have their membership terminated, whether by their own accord or through a decision of the committee, are no longer affiliated with the club and cannot have their membership fee refunded.
+
+\section{The Committee} \label{theCommittee}
+\subsection{Makeup} \label{committeeMakeup}
+The committee consists of up to 20 members, unless a number in excess of this is decided by the committee. In order of precedence they are the President, the Vice-President, the Treasurer, the Secretary, the Partnerships and Sponsorships Manager, the Duck Lounge Liaison, the Social Media and Marketing Manager, the Equity Officer, the Major Representative Suite (inclusive of the the Artificial Intelligence Representative, the Cybersecurity Representative, the Data Science Representative, the Distributed Systems Representative, the Software Engineering Representative, and the Information Technology Representative), the First-Year Representative, and an unlimited number of General committee members.
+
+\subsection{Election}
+A committee is elected to office at the AGM, with the exception of the First Year Representative. The First Year Representative is elected to office as set out in section 17.1. The committee including the First Year Representative holds office until the subsequent AGM.
+\subsubsection{Turnover}
+A turnover meeting must be held within one month of any general meeting where a new committee member is elected to train the new committee member(s). This timeframe may be extended if it clashes with exams or major assessment deadlines.
+
+\subsection{Duties}
+The committee acts on behalf of the Club in the general day-to-day running of the Club and must not act to the detriment of the Club’s interests.
+
+\subsection{Casual Vacancies} \label{committeeCasualVacancies}
+The committee has the power to fill any casual vacancies arising from circumstances outlined in Section \ref{extraordinaryCommitteeChanges} during its term of office. All members shall be given reasonable ability, time and opportunity to apply for casual vacancies. The ability of the committee to fill casual vacancies shall not be restricted by this constitution.
+
+\subsection{Expiration}
+All offices expire at the AGM, but former officers may re-run and hold office any number of times.
+
+\subsection{Committee Meetings}
+The committee must meet at least once a month during the academic year. The committee will make reasonable efforts to ensure maximal attendance by committee members, including but not limited to:
+\begin{enumerate}[(a)]
+    \item Provisions to attend meetings electronically; or
+    \item Partial attendance in order to raise their proposed motions; or
+    \item Sending in a representative upon written notice to and approval by the President and Secretary; or
+    \item Sending in a written summary of their motions, reports, and voting desires for other motions and positions; or
+    \item Polls by the President, whether over Messenger or on voting websites, including but not limited to WhenIsGood and Doodle, to permit committee meetings to be held during times of maximum availability.
+\end{enumerate}
+
+\subsection{Removal of committee members due to absences} \label{committeeRemovalAbsences}
+If a committee member fails to attend three committee meetings in a row without providing an apology, being on a leave of absence or having alternative arrangements put in place, the committee member will be immediately removed from their position. 
+\begin{enumerate}[(a)]
+    \item An attendance will reset the count.
+    \item Apologies will not be counted towards the three absences count.
+    \item Apologies will not reset the count.
+\end{enumerate}
+
+\subsection{Removal of committee members due to misconduct}
+\begin{enumerate}[(a)]
+    \item If a committee member has demonstrable interests against the club, or actively works to undermine the club and its interests, they may be removed from their positions subject to a vote of no less than two-thirds of the committee.
+    \item If a committee member is accused of harassment against another committee member, they will be suspended from their position and may be removed after a committee meeting subject to a vote of no less than two-thirds of the committee. 
+    \begin{enumerate}[(i)]
+        \item The accused will not be allowed to attend the committee meeting in person should the victim be present, to allow the victim to safely attend the meeting.
+        \item The accused will be allowed to attend electronically, and will be allowed to submit a written statement.
+    \end{enumerate}  
+    \item If a committee member is convicted of violating a University Code of Conduct resulting in their suspension from the University they will be immediately removed from their position as a committee member.
+    \item If a committee member commits a crime resulting in jail time they will be immediately removed from their position as a committee member.
+    \item If a committee member is found to be committing fraudulent activities using the club bank account, they will be immediately suspended from their position as a committee member, and a meeting with YouX will be held to discuss the offence.
+    \begin{enumerate}[(i)]
+        \item If the funds are not returned the Club will terminate both their position and their membership.
+        \item The committee will pursue all reasonable pathways to have the funds returned, and may seek legal advice in the event that other pathways have been exhausted.
+    \end{enumerate}
+    \item If a committee member is continually absent from meetings throughout the year, is consistently failing to fulfill their duties or tasks, is causing conflict within the committee or club, or is otherwise proven to be difficult to work with, they may be removed from their position at a committee meeting subject to a two-thirds majority vote.
+\end{enumerate}
+
+\section{Special Resolutions of the Committee} \label{specialResolutionsCommittee}
+
+\subsection{Definition}
+A special resolution is a motion put forth by the committee on a specific matter which is NOT:
+\begin{enumerate}[(a)]
+    \item Related to the day-to-day running of the club; or
+    \item already accounted for by constitutional or executive powers.
+\end{enumerate}
+
+\subsection{Process}
+A special resolution must be raised during a committee meeting as set out in Section \ref{committeeMeetings}, and voted upon as in Section \ref{committeeMeetingVotingProcedure}. A special resolution is required for a matter to be brought to a GM to be decided.
+For the resolution to take effect, the resolution must be put to vote in a GM as set out in Section \ref{generalMeetings}.
+
+\section{Committee Meetings} \label{committeeMeetings}
+
+\subsection{Calling a Meeting}
+A meeting is called by the President or the Vice-President to discuss day-to-day running of the club and any issues for the committee to decide. The meeting must be called at least 1 week in advance; if they are not, committee members may be absent without reason and suffer no consequence as set out in Section \ref{committeeRemovalAbsences}. 
+
+\subsection{Voting Procedure} \label{committeeMeetingVotingProcedure}
+\begin{enumerate}[(a)]
+    \item The President has a deliberative vote and in the case of an equality of votes, may exercise a casting vote. This means they effectively have 2 votes, 1 in capacity as member and another in capacity as the chair of the meeting.
+    \item The President chairs all committee and GMs of the Club. In their absence, chair of the meeting will follow in the order of precedence stated in Section \ref{committeeMakeup}.
+    \item No committee member may delegate his/her voting right in absentia.
+    \item The quorum of a committee meeting is 5 distinct voting members of the committee. 
+    \item If a quorum is not present then the executive has general decisive power.
+\end{enumerate}
+
+\subsection{Minutes}
+Minutes of all meetings must be kept and they must include:
+\begin{enumerate}[(a)]
+    \item The names of the persons that attended that meeting; and
+    \item Discussion points; and
+    \item Decisions of the committee.
+\end{enumerate}
+
+\subsection{Special Circumstances}
+Upon receiving a written petition of 3 voting committee members, the President, or in their absence the Vice-President, must call a meeting of the committee within 14 days.
+
+\section{Extraordinary Committee Changes} \label{extraordinaryCommitteeChanges}
+\subsection{Cessation of Office}
+A member of the committee ceases holding their office if:
+\begin{enumerate}[(a)]
+    \item The President or Vice-President receives a written notice of resignation from that member; or
+    \item The member is absent, without leave of absence being granted by resolution of the committee, for 3 consecutive meetings of the committee of which the member was notified; or
+    \item Their membership in the club is terminated as set out in Section \ref{terminationMembership}.
+    \item A motion of no-confidence in a committee member’s ability to perform their duties is expressed by at least 6 out of 9 possible members, whereby a SGM must be called to vote on the matter of changing the committee.
+\end{enumerate}
+
+\subsection{Filling a Vacancy}
+When an office becomes vacant a GM must called to fill the position within 6 weeks unless:
+\begin{enumerate}[(a)]
+    \item The AGM is to be held within 8 weeks of the position becoming vacant; or
+    \item There is no academic day within the next 6 weeks. In this instance the GM is to be held within 2 weeks of the next academic day; or
+    \item The office is filled as a casual vacancy as specified in Section \ref{committeeCasualVacancies}.
+\end{enumerate}
+The President or in their absence the Vice-President may appoint any volunteering club member to fill the office in the interim.
+
+\section{The Executive Body}
+
+\subsection{Makeup}
+The executive consists of:
+\begin{enumerate}[(a)]
+    \item The President; and
+    \item the Vice-President;
+    \item the Treasurer; and
+    \item the Secretary; and
+    \item the Partnerships and Sponsorship Manager.
+\end{enumerate}
+
+\subsection{General Power}
+The executive has general power to make regulations necessary to put into effect this constitution, provided that such regulations are consistent with this constitution and the objectives of the club.
+
+\subsection{Acting Presidencies}
+In the event the President is unable to fulfill their duties, the executive has the power to promote, in the order of precedence set out in Section \ref{committeeMakeup}, a member of the executive to acting President subject to ratification at GM.
+
+\subsection{Eligibility to hold positions}
+Those serving in an executive office should, where possible, have previously served in another position on the committee.
+
+\subsection{Working Groups}
+The executive has the power to appoint working groups from within the membership to perform duties associated with a specific agenda. Such working groups are, at all times, answerable to the executive.
+
+\section{The President}
+The President is elected by the members of the club at each AGM.
+\subsection{Duties}
+The President is the official spokesperson of the club and is responsible for the direction and implementation of resolutions made by the executive, the committee or at a GM.
+
+\section{The Vice President}
+The Vice-President is elected by the members of the Club at each AGM.
+\subsection{Duties}
+The Vice-President is the deputy chairperson of the committee and the executive.
+
+\section{The Treasurer}
+The Treasurer is elected by the members of the Club at each AGM.
+\subsection{Duties}
+The Treasurer is responsible for maintaining the finances of the club, including day-to-day and event expenses. 
+\subsubsection{Annual Report}
+The Treasurer must present a report of the year’s finances at each AGM. The report must include a summary of income received, expenditure, and explicitly define and reason any major expenses summing greater than \$200.Mid-year Report
+\subsubsection{Mid-Year Report}
+The Treasurer must present a report of the year’s finances to the Executive committee. The report must include a summary of income received, expenditure, and explicitly define and reason any major expenses summing greater than \$200.
+
+\section{The Secretary}
+The Secretary is elected by the members of the Club at each AGM.
+\subsection{Duties}
+The Secretary is responsible for all records of the club. The Secretary must record minutes for all meetings of the club including committee meetings and GM.
+
+\section{The Partnerships and Sponsorships Manager}
+The Partnerships Manager is elected by the members of the Club at each AGM.
+\subsection{Duties}
+The Partnerships Manager is responsible for sourcing and tracking new and repeating industry partners and sponsors for the club.
+Once a partnership is secured, the Partnerships Manager is responsible for communicating with the contact to deliver the agreed upon benefits as stated in the prospectus, and keep track of the benefits that the partner has used.
+\subsubsection{Annual Sponsor Review Report}
+The Partnerships Manager must present a report to each AGM detailing the Sponsors retained, lost and recommended sponsors for the next year.
+
+\section{The Duck Lounge Liaison}
+The Duck Lounge Liaison is elected by the members of the Club at each AGM or appointed by the members of the committee during the turnover meeting succeeding the AGM at the end of each year. They are not required to be a current student. The Duck Lounge Liaison can be any member of the General Committee. The Duck Lounge Liaison will serve as a single point of contact between the Club and the Faculty.
+\subsection{Duties}
+The Duck Lounge Liaison will work with the Faculty of ECMS and School of Computer Science to ensure good maintenance of the Duck Lounge.
+They will attend meetings alongside the President, or in place of the President wherever necessary, with the School and Faculty in matters concerning the Duck Lounge.
+They will also be responsible for seeking feedback from the students and members of the club that use the Duck Lounge to ensure democratic representation and that students have a voice within meetings.
+They will report to the committee at least once every three months about the usage of the Duck Lounge, maintenance issues, and any new feature requests. They will also report any damage to the Club and/or School wherever responsible, and will forward reports and complaints to the Club and/or School wherever necessary.
+
+\section{The Social Media and Marketing Manager}
+The Social Media and Marketing Manager is elected by the members of the Club at each AGM. There can be two elected Social Media and Marketing Manager members to ensure the duties listed below can be managed appropriately.
+\subsection{Duties}
+The Social Media and Marketing Manager is responsible for advertising information about upcoming club activities and events and advertisements or information from our sponsors and partners on appropriate platforms such as the facebook page, instagram page, discord server, and Engieheard group, or any other platform deemed appropriate.
+The Social Media and Marketing Manager is responsible for the upkeep of the Facebook and Instagram pages and may make posts and stories at any time, ensuring they are relevant to the Club.
+
+\section{The Equity Officer}
+The Equity Officer is elected by the members of the Club at each AGM
+\subsection{Duties}
+The Equity Officer is responsible for being the face of public relations. The Equity Officer is the person for club members to speak to if they have any problems regarding the club or the members and taking responsible action.
+
+\section{Artificial Intelligence Representative}
+The Artificial Intelligence Major Representative is a member of the Major Representative Suite and elected by the members of the Club at each AGM.
+\subsection{Eligibility} 
+It is preferred that the Artificial Intelligence Major Representative be an undergraduate student at the University in at least their third year and majoring in Artificial Intelligence, or a postgraduate student completing their Masters or PhD in Artificial Intelligence.
+\subsection{Duties}
+The Artificial Intelligence Major Representative is responsible for organising at least one event related to Artificial Intelligence with a focus on learning or networking.
+
+\section{Cybersecurity Representative}
+The Cybersecurity Major Representative is elected by the members of the Club at each AGM.
+\subsection{Eligibility}
+It is preferred that the Cybersecurity Major Representative be an undergraduate student at the University in at least their third year and majoring in Cybersecurity, or a postgraduate student completing their Masters or PhD in Cybersecurity.
+\subsection{Duties}
+The Cybersecurity Major Representative is responsible for organising at least one event related to Cybersecurity with a focus on learning or networking.
+
+\section{Data Science Representative}
+The Data Science Major Representative is elected by the members of the Club at each AGM.
+\subsection{Eligibility}
+It is preferred that the Data Science Major Representative be an undergraduate student at the University in at least their third year and majoring in Data Science, or a postgraduate student completing their Masters or PhD in Data Science.
+\subsection{Duties}
+The Data Science Major Representative is responsible for organising at least one event related to Data Science with a focus on learning or networking.
+
+\section{Distributed Systems and Networking Representative}
+The Distributed Systems and Networking Major Representative is elected by the members of the Club at each AGM. 
+\subsection{Eligibility}
+It is preferred that the Distributed Systems and Networking Major Representative be an undergraduate student at the University in at least their third year and majoring in Distributed Systems and Networking  or a postgraduate student completing their Masters or PhD in Distributed Systems and Networking.
+\subsection{Duties}
+The Distributed Systems and Networking Major Representative is generally responsible for organising at least one event related to Distributed Systems and Networking with a focus on learning or networking.
+
+\section{Software Engineering Representative}
+The Software Engineering Representative is elected by members of the Club at each AGM. 
+\subsection{Eligibility}
+It is preferred that the Software Engineering Representative be an undergraduate student at the University studying the Bachelor of Engineering (Software), a postgraduate student studying Software Engineering, or otherwise heavily involved in Software Engineering.
+\subsection{Duties}
+The Software Engineering Representative is generally responsible for organising at least one event related to Software Engineering with a focus on learning or networking.
+
+\section{Information Technology Representative}
+The Information Technology Representative is elected by the members of the Club at each AGM. appointed by the members of the committee at the turnover meeting following the AGM each year.
+\subsection{Eligibility}
+It is preferred that the Information Technology Representative be an undergraduate student at the University studying the Bachelor of Information Technology, a postgraduate student studying Information Technology, or otherwise heavily involved in Information Technology.
+\subsection{Duties}
+The Information Technology Representative is generally responsible for organising at least one event related to Information Technology with a focus on learning or networking.
+
+\section{The First Year Representative}
+The First Year Representative is elected by the members of the Club during a GM during the first half of the first semester of the year.
+\subsection{Duties}
+The First Year Representative is responsible for ensuring that members of the club in their first year at university are represented. This may include any concerns or ideas that they believe should be known by the committee to better meet the goals of the club in regards to first year members. In addition to this, they are responsible for assisting the executive in running the club.
+
+\section{General Committee}
+The General Committee members are elected by the members of the Club at each AGM.
+\subsection{Duties}
+The General Committee are responsible for assisting the executive in running the club. In general they are also responsible for assisting club members with regards to the goals of the club.
+\subsection{Ability to appoint additional members}
+The Executive committee may appoint additional general committee members without the need for a general meeting to reflect changing needs of the club.adhering to section 7.1.
+
+\section{Club Finances}
+\subsection{Bank Account}
+The club must hold a bank account for the purpose of holding the club’s funds.
+\subsection{Signatories}
+The signatories of the club’s bank account are the President, Vice-President, Secretary and Treasurer, referred to as the Executive.
+\subsection{Minimum balance}
+The committee shall endeavour to maintain a minimum bank balance of \$2,000, except where there is an essential need for the spending of this money to run events and essential functions as approved in a committee meeting.
+\subsection{Authority to access funds}
+Any one signatory may withdraw funds from the bank account with written approval from the rest of the Executive by any means of communication, such communication must be recorded in the clubs records for auditing purposes. The use of these funds must then be approved by a majority of no less than half of the committee at the subsequent committee meeting or the funds must be returned immediately. All members of the Executive will have authority to view the bank account and challenge unauthorised transactions.
+Should the Executive fail to authorise unanimously withdrawal of funds a committee meeting must be held before funds can be withdrawn. Upon a successful motion of no less than half of the committee the funds may then be withdrawn.
+
+\section{General Meetings} \label{generalMeetings}
+\subsection{Purpose}
+A General Meeting of the club is the ultimate decision-making body of the club and has the power to direct the committee, the executive and the officers of the club. It is reserved for only important decisions which concerns the club as a whole.
+\subsection{Calling a meeting}
+A General Meeting is considered “called” as long as the committee have reasonably made efforts to advertise the meeting to its members.
+\subsection{Timing}
+A president must call a meeting within 14 days when:
+\begin{enumerate}
+    \item The committee directs them to do as such; or
+    \item They receive a petition calling for a GM from at least 7 club members.
+\end{enumerate}
+The meeting must be held no sooner than 10 working days after it is called.
+The meeting must be held not later than 1 calendar month after it is called.
+\subsection{Conducting a meeting}
+The General Meeting is directed by the committee regarding whatever reason for which it was convened.
+\subsubsection{Voting}
+If a matter must be put to vote, then each member has 1 vote which they may not delegate to another. The quorum for a General Meeting in which a matter must be voted is 10 members.
+\subsubsection{Record keeping}
+The Secretary must record all the attending members in the minutes for the General Meeting.
+
+\section{The Annual General Meeting} \label{annualGeneralMeeting}
+\subsection{Definition}
+The AGM is a special GM specifically for the purpose of conducting concluding business for the year. This includes reports from at least the President and the Treasurer, and the election of a new committee. The process and rules are otherwise the same as a GM.
+\subsection{Annual occurrence}
+The AGM must be held during an academic day during the second half of the second semester every year.
+\subsection{Returning Officer}
+A Returning Officer must be appointed by the committee prior to the AGM. The returning officer cannot be a candidate for that election, but can otherwise be any willing member.
+\subsection{Electing Officers}
+A new committee must be formed at each AGM. The officers as stated in Section \ref{committeeMakeup}
+
+\section{The Trustees upon Winding Up}
+In the event that the Club winds up or lapses, the assets remaining, after the paying of debts and liabilities, shall be transferred to YouX, and those assets shall be used by YouX in accordance with YouX constitution.
+
+\section{The Constitution}
+\subsection{Interpretation}
+This constitution is to be interpreted with close regard to the principles and objectives of the club as set out in Section \ref{principlesObjectivesClub}.
+\subsection{Effectiveness}
+This constitution takes effect when it is ratified by club members in a GM.
+\subsection{Amendments}
+Amendments to this constitution may be proposed by a resolution of the committee or a petition from at least 10 members of the club. Any amendments to this constitution must be ratified by club members in a GM in order for the amendment to take effect.
+
+\setlength{\parindent}{0pt}
+\vfill
+THIS CONSTITUTION HAS BEEN REVIEWED AND RATIFIED BY CLUB MEMBERS A GENERAL MEETING.
+
+\vspace{0.5cm}
+DATE OF GENERAL MEETING:\framebox[5cm]{\rule{0pt}{10pt}}
+
+\vspace{1cm}
+THIS CONSTITUTION HAS BEEN ENDORSED AND SIGNED BY
+\vspace{1cm}
+
+
+\signature{INSERT NAME}{INSERT TITLE}
+
+\vspace{0.5cm}
+DATE OF ENDORSEMENT: \framebox[5cm]{\rule{0pt}{10pt}}
+
+
+\end{document}
